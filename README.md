@@ -7,6 +7,9 @@ Our code is primarily based on [MMDetection](https://github.com/open-mmlab/mmdet
 ## Dataset
 Download the [ASSR Dataset](https://github.com/SirisAvishek/Attention_Shift_Ranks) and [IRSR Dataset](https://github.com/dragonlee258079/Saliency-Ranking).
 
+<details open>
+<summary>主要特性</summary>
+
 ## Training
 ### ASSR Dataset
 For resnet-50 backbone model:
