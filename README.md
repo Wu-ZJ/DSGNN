@@ -1,10 +1,10 @@
 # Domain-Separation-Graph-Neural-Networks-for-Saliency-Object-Ranking
 
 ## Installation
-### Step 1: Install pytorch and mmcv==1.7.1
+### Step 1: Install pytorch and mmcv==1.7.1.
 Please referring to [this](https://github.com/open-mmlab/mmcv).
 
-### Step 2: Clone this repository and execute:
+### Step 2: Clone this repository and execute.
 ```bash
 python setup.py develop
 ```
