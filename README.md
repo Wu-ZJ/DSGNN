@@ -1,5 +1,5 @@
 # Domain-Separation-Graph-Neural-Networks-for-Saliency-Object-Ranking
-<img src="https://user-images.githubusercontent.com/12907710/137271636-56ba1cd2-b110-4812-8221-b4c120320aa9.png"/>
+<img src="https://github.com/Wu-ZJ/DSGNN/blob/main/resources/main.png"/>
 
 ## Installation
 Our code is primarily based on [MMDetection](https://github.com/open-mmlab/mmdetection). Please refer to the [MMDetection Installation](https://mmdetection.readthedocs.io/en/latest/get_started.html) for installation instructions.
