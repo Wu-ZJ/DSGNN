@@ -8,9 +8,7 @@ Our code is primarily based on [MMDetection](https://github.com/open-mmlab/mmdet
 Download the [ASSR Dataset](https://github.com/SirisAvishek/Attention_Shift_Ranks) and [IRSR Dataset](https://github.com/dragonlee258079/Saliency-Ranking).
 
 <details open>
-<summary>主要特性</summary>
-
-## Training
+<summary>## Training</summary>
 ### ASSR Dataset
 For resnet-50 backbone model:
 ```bash
@@ -30,6 +28,7 @@ For swin-L backbone model:
 ```bash
 bash ./tools/dist_train.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_irsr.py --num_gpus --load-from pertrained_model_path
 ```
+</details>
 
 ## Testing
 ### ASSR Dataset
