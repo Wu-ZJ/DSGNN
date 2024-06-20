@@ -53,10 +53,10 @@ bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_
 ## Results
 ### Models
 
-| Model | Dataset | Link |  
+| Model | Dataset | Download |  
 | :---: | :---: | :---: |  
-| Pertrained-Res50 | - | 内容 |  
-| Pertrained-SwinL | - | 内容 |
+| Pertrained-Res50 | - | [mask2former_r50_lsj_8x2_50e_coco](https://download.openmmlab.com/mmdetection/v2.0/mask2former/mask2former_r50_lsj_8x2_50e_coco/mask2former_r50_lsj_8x2_50e_coco_20220506_191028-8e96e88b.pth) |  
+| Pertrained-SwinL | - | [mask2former_swin-l-p4-w12-384-in21k_lsj_16x1_100e_coco-panoptic](https://download.openmmlab.com/mmdetection/v2.0/mask2former/mask2former_swin-l-p4-w12-384-in21k_lsj_16x1_100e_coco-panoptic/mask2former_swin-l-p4-w12-384-in21k_lsj_16x1_100e_coco-panoptic_20220407_104949-d4919c44.pth) |
 | DSGNN-Res50 | ASSR | 内容 |  
 | DSGNN-SwinL | ASSR | 内容 |
 | DSGNN-Res50 | IRSR | 内容 |  
