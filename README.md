@@ -52,7 +52,6 @@ bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_
 ```
 
 ## Results
-### Models
 
 | Model | Dataset | Download |  
 | :---: | :---: | :---: |  
@@ -62,8 +61,6 @@ bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_
 | DSGNN-SwinL | ASSR | model \| [visualization results](https://pan.baidu.com/s/1x4vP3M7uiPeAissD6x7lCQ) (9esz) |
 | DSGNN-Res50 | IRSR | 内容 |  
 | DSGNN-SwinL | IRSR | 内容 |
-
-### Visualization Results
 
 ## Citation
     @InProceedings{Wu_2024_CVPR,
