@@ -18,7 +18,7 @@ Download the ASSR Dataset and IRSR Dataset.
 
 ## Training
 
-# Citation
+## Citation
     @InProceedings{Wu_2024_CVPR,
         author    = {Wu, Zijian and Lu, Jun and Han, Jing and Bai, Lianfa and Zhang, Yi and Zhao, Zhuang and Song, Siyang},
         title     = {Domain Separation Graph Neural Networks for Saliency Object Ranking},
