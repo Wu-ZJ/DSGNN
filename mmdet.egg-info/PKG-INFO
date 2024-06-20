@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: mmdet
+Version: 2.26.0
+Summary: OpenMMLab Detection Toolbox and Benchmark
+Home-page: https://github.com/open-mmlab/mmdetection
+Author: MMDetection Contributors
+Author-email: openmmlab@gmail.com
+License: Apache License 2.0
+Keywords: computer vision,object detection
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: build
+Provides-Extra: optional
+Provides-Extra: mim
+License-File: LICENSE
+
+# DSGNN
+Implementation of Domain Separation Graph Neural Networks for Saliency Object Ranking.
+
+## Installation
+step 1: install pytorch and mmcv==1.7.1 referring to [this](https://github.com/open-mmlab/mmcv).
+
+step 2: clone this repository and execute:
+```bash
+python setup.py develop
+```
+
+step 3: pip install scipy
+        pip install terminaltables
+        pip install tensorboard
+        pip install -U scikit-learn
+
+## Dataset
+Download the ASSR Dataset and IRSR Dataset.
+
+## Training
+
+for swin-L backbone:
+```bash
+bash ./tools/dist_train.sh configs/mask2former_sor2/mask2former_sor_swin-l-int21k_assr.py --num_gpus --load-from work_dirs/pertrained_ckpts/mask2former_swin-l-p4-w12-384-in21k_lsj_16x1_100e_coco-panoptic.pth
+```
+
+## Inference & Evaluation
+```bash
+bash ./tools/dist_test.sh configs/mask2former_sor2/mask2former_sor_swin-l-int21k_assr.py work_dirs/mask2former_sor_swin-l-int21k_assr/your_model.pth 1 --eval mae
+```
+
+
