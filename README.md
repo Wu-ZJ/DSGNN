@@ -54,7 +54,7 @@ bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_
 ### Models
 
 | Model | Dataset | Link |  
-| --- | --- | --- |  
+| :---: | :---: | :---: |  
 | Pertrained | - | 内容 |  
 | DSGNN-Res50 | ASSR | 内容 |  
 | DSGNN-SwinL | ASSR | 内容 |
