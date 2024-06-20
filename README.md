@@ -27,6 +27,27 @@ For swin-L backbone model:
 bash ./tools/dist_train.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_irsr.py --num_gpus --load-from pertrained_model_path
 ```
 
+## Testing
+### ASSR Dataset
+For resnet-50 backbone model:
+```bash
+bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_r50_assr.py model_path 1 --eval mae
+```
+For swin-L backbone model:
+```bash
+bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_assr.py model_path 1 --eval mae
+```
+
+### IRSR Dataset
+For resnet-50 backbone model:
+```bash
+bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_r50_irsr.py model_path 1 --eval mae
+```
+For swin-L backbone model:
+```bash
+bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_irsr.py model_path 1 --eval mae
+```
+
 ## Citation
     @InProceedings{Wu_2024_CVPR,
         author    = {Wu, Zijian and Lu, Jun and Han, Jing and Bai, Lianfa and Zhang, Yi and Zhao, Zhuang and Song, Siyang},
