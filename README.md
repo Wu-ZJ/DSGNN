@@ -1,4 +1,5 @@
 # Domain-Separation-Graph-Neural-Networks-for-Saliency-Object-Ranking
+<img src="https://user-images.githubusercontent.com/12907710/137271636-56ba1cd2-b110-4812-8221-b4c120320aa9.png"/>
 
 ## Installation
 Our code is primarily based on [MMDetection](https://github.com/open-mmlab/mmdetection). Please refer to the [MMDetection Installation](https://mmdetection.readthedocs.io/en/latest/get_started.html) for installation instructions.
@@ -47,6 +48,9 @@ For swin-L backbone model:
 ```bash
 bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_irsr.py model_path 1 --eval mae
 ```
+
+## Results
+
 
 ## Citation
     @InProceedings{Wu_2024_CVPR,
