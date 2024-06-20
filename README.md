@@ -2,7 +2,7 @@
 
 ## Installation
 ### Step 1: Install pytorch and mmcv==1.7.1
-        Please referring to [this](https://github.com/open-mmlab/mmcv).
+Please referring to [this](https://github.com/open-mmlab/mmcv).
 
 ### Step 2: Clone this repository and execute:
         ```bash
