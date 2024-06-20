@@ -10,10 +10,10 @@ python setup.py develop
 ```
 
 ### Step 3: 
-pip install scipy
-pip install terminaltables
-pip install tensorboard
-pip install -U scikit-learn
+    pip install scipy
+    pip install terminaltables
+    pip install tensorboard
+    pip install -U scikit-learn
 
 ## Dataset
 Download the ASSR Dataset and IRSR Dataset.
