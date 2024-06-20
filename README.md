@@ -5,15 +5,15 @@
 Please referring to [this](https://github.com/open-mmlab/mmcv).
 
 ### Step 2: Clone this repository and execute:
-        ```bash
-        python setup.py develop
-        ```
+```bash
+python setup.py develop
+```
 
 ### Step 3: 
-        pip install scipy
-        pip install terminaltables
-        pip install tensorboard
-        pip install -U scikit-learn
+pip install scipy
+pip install terminaltables
+pip install tensorboard
+pip install -U scikit-learn
 
 ## Dataset
 Download the ASSR Dataset and IRSR Dataset.
