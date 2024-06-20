@@ -1,4 +1,5 @@
 # Domain-Separation-Graph-Neural-Networks-for-Saliency-Object-Ranking
+Code release for the CVPR 2024 paper [Domain Separation Graph Neural Networks for Saliency Object Ranking](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Domain_Separation_Graph_Neural_Networks_for_Saliency_Object_Ranking_CVPR_2024_paper.html)
 <img src="https://github.com/Wu-ZJ/DSGNN/blob/main/resources/main.png"/>
 
 ## Installation
