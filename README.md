@@ -1,19 +1,7 @@
 # Domain-Separation-Graph-Neural-Networks-for-Saliency-Object-Ranking
 
 ## Installation
-### Step 1: Install pytorch and mmcv==1.7.1:
-Please referring to [this](https://github.com/open-mmlab/mmcv).
-
-### Step 2: Clone this repository and execute:
-```bash
-python setup.py develop
-```
-
-### Step 3: 
-    pip install scipy
-    pip install terminaltables
-    pip install tensorboard
-    pip install -U scikit-learn
+Our code is primarily based on [MMDetection](https://github.com/open-mmlab/mmdetection). Please refer to the [MMDetection Installation](https://mmdetection.readthedocs.io/en/latest/get_started.html) for installation instructions.
 
 ## Dataset
 Download the ASSR Dataset and IRSR Dataset.
