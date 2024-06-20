@@ -51,12 +51,17 @@ bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_
 ```
 
 ## Results
+### Models
 
-| 表头1 | 表头2 | 表头3 |  
+| Model | Dataset | Link |  
 | --- | --- | --- |  
-| 内容 | 内容 | 内容 |  
-| 内容 | 内容 | 内容 |  
+| Pertrained | - | 内容 |  
+| DSGNN-Res50 | ASSR | 内容 |  
+| DSGNN-SwinL | ASSR | 内容 |
+| DSGNN-Res50 | IRSR | 内容 |  
+| DSGNN-SwinL | IRSR | 内容 |
 
+### Visualization Results
 
 ## Citation
     @InProceedings{Wu_2024_CVPR,
