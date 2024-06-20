@@ -59,7 +59,7 @@ bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_
 | Pertrained-SwinL | COCO | [mask2former_swin-l-p4-w12-384-in21k_lsj_16x1_100e_coco-panoptic](https://download.openmmlab.com/mmdetection/v2.0/mask2former/mask2former_swin-l-p4-w12-384-in21k_lsj_16x1_100e_coco-panoptic/mask2former_swin-l-p4-w12-384-in21k_lsj_16x1_100e_coco-panoptic_20220407_104949-d4919c44.pth) |
 | DSGNN-Res50 | ASSR | [model](https://pan.baidu.com/s/1y1hYIxIQcHoPX7sdpi9VPA) (3qm5) \| [visualization results](https://pan.baidu.com/s/1x4vP3M7uiPeAissD6x7lCQ) |  
 | DSGNN-SwinL | ASSR | model \| [visualization results](https://pan.baidu.com/s/1x4vP3M7uiPeAissD6x7lCQ) (9esz) |
-| DSGNN-Res50 | IRSR | model |  
+| DSGNN-Res50 | IRSR | [model](https://pan.baidu.com/s/18S9a20PkjSi1PJMckjEy_Q) (mfdh) |  
 | DSGNN-SwinL | IRSR | model |
 
 ## Citation
