@@ -62,10 +62,10 @@ bash ./tools/dist_test.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_
 ## Results
 | Model | Dataset | Download |  
 | :---: | :---: | :---: |  
-| DSGNN-Res50 | ASSR | [model](https://pan.baidu.com/s/1y1hYIxIQcHoPX7sdpi9VPA) (3qm5) \| [visualization results](https://pan.baidu.com/s/1x4vP3M7uiPeAissD6x7lCQ) |  
-| DSGNN-SwinL | ASSR | model \| [visualization results](https://pan.baidu.com/s/1x4vP3M7uiPeAissD6x7lCQ) (9esz) |
+| DSGNN-Res50 | ASSR | [model](https://pan.baidu.com/s/1y1hYIxIQcHoPX7sdpi9VPA) (3qm5) \| [visualization results](https://pan.baidu.com/s/1O2fTFsDBFzAfVgObE5HNwQ) (d8m1) |  
+| DSGNN-SwinL | ASSR | [model](https://pan.baidu.com/s/1Ypww_wwuJppJYvspg_x00w) (1pjw) \| [visualization results](https://pan.baidu.com/s/1x4vP3M7uiPeAissD6x7lCQ) (9esz) |
 | DSGNN-Res50 | IRSR | [model](https://pan.baidu.com/s/18S9a20PkjSi1PJMckjEy_Q) (mfdh) |  
-| DSGNN-SwinL | IRSR | model |
+| DSGNN-SwinL | IRSR | [model](https://pan.baidu.com/s/1IysmL6Iga1AARuxqK5wm8g) (sq1r) |
 
 ## Citation
     @InProceedings{Wu_2024_CVPR,
