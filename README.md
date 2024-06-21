@@ -12,21 +12,21 @@ Download the [ASSR Dataset](https://github.com/SirisAvishek/Attention_Shift_Rank
 ### ASSR Dataset
 For resnet-50 backbone model:
 ```bash
-bash ./tools/dist_train.sh configs/mask2former_sor/mask2former_sor_r50_assr.py --num_gpus --load-from pertrained_model_path
+bash ./tools/dist_train.sh configs/mask2former_sor/mask2former_sor_r50_assr.py num_gpus --load-from pertrained_model_path
 ```
 For swin-L backbone model:
 ```bash
-bash ./tools/dist_train.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_assr.py --num_gpus --load-from pertrained_model_path
+bash ./tools/dist_train.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_assr.py num_gpus --load-from pertrained_model_path
 ```
 
 ### IRSR Dataset
 For resnet-50 backbone model:
 ```bash
-bash ./tools/dist_train.sh configs/mask2former_sor/mask2former_sor_r50_irsr.py --num_gpus --load-from pertrained_model_path
+bash ./tools/dist_train.sh configs/mask2former_sor/mask2former_sor_r50_irsr.py num_gpus --load-from pertrained_model_path
 ```
 For swin-L backbone model:
 ```bash
-bash ./tools/dist_train.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_irsr.py --num_gpus --load-from pertrained_model_path
+bash ./tools/dist_train.sh configs/mask2former_sor/mask2former_sor_swin-l-int21k_irsr.py num_gpus --load-from pertrained_model_path
 ```
 </details>
 
